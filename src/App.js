@@ -25,7 +25,7 @@ function App() {
         Bitcoin's price is{' '}
         <span className="btc-price">${price.toLocaleString()}</span>
       </h1>
-      <h4>Sup?!</h4>
+      <h4>Sup?! 😄</h4>
     </div>
   )
 }
