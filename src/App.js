@@ -19,6 +19,14 @@ function App() {
     getPrice()
   }, [])
 
+  useEffect(() => {
+    // setInterval will run whatever is in the callback function every 5 seconds
+    const interval = setInterval(() => {
+      getPrice()
+    }, 5000)
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <div className="container">
       <h1>
