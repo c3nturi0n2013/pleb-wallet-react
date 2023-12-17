@@ -57,3 +57,20 @@ body {
     transform: rotateY(360deg);
   }
 }
+
+.countdown {
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 1.75em;
+}
+
+.tag {
+  text-decoration: none;
+  color: yellow;
+}
+
+.tag:hover {
+  color: red;
+}
