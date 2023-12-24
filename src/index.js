@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App'
 import Clock from './Clock'
-import Countdown from './Countdown'
+import Stats from './Stats'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
     <Clock />
+    <Stats />
   </React.StrictMode>
 )
