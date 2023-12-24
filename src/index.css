@@ -132,6 +132,7 @@ body {
 .quote {
   font-size: 1.8em; /* Larger font size for the quote */
   color: #fff; /* Darker color for emphasis */
+  text-align: center;
   margin-bottom: 20px; /* Space between quote and author */
   font-weight: bold; /* Bold font weight for the quote */
   line-height: 1.4; /* Line spacing */
@@ -142,4 +143,20 @@ body {
   color: #fff; /* Lighter color for the author */
   margin-top: 0; /* Adjust top margin if needed */
   font-style: italic; /* Italicize the author's name */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .quote {
+    font-size: 1.4em; /* Slightly smaller for mobile */
+  }
+
+  .author {
+    font-size: 0.8em; /* Adjust for mobile */
+  }
+  .quote-container {
+    max-width: 90%;
+    padding: 15px;
+    line-height: 1.3;
+  }
 }
