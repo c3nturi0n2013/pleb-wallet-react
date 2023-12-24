@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App'
 import Clock from './Clock'
-import Stats from './Stats'
+import QuotesCarousel from './QuotesCarousel'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
     <Clock />
-    <Stats />
+    <QuotesCarousel interval={10000} />
   </React.StrictMode>
 )

@@ -74,7 +74,7 @@ body {
 .tag:hover {
   color: red;
 }
-.stats-container {
+/* .stats-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,16 +94,16 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2); /* Adjust the alpha value for dimming */
-  z-index: 2; /* Ensure this is above the image */
+/* z-index: 2; 
   pointer-events: none;
-}
+} */
 
-.image {
+/*.image {
   width: 400px;
   height: 400px;
   max-width: 100%;
   margin-bottom: 20px;
-  z-index: 1; /* Below the overlay */
+  z-index: 1; 
 }
 .infographics-text {
   text-align: center;
@@ -119,4 +119,27 @@ body {
 
 .statista:hover {
   color: white;
+} */
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin-top: 50px;
+}
+
+.quote {
+  font-size: 1.8em; /* Larger font size for the quote */
+  color: #fff; /* Darker color for emphasis */
+  margin-bottom: 20px; /* Space between quote and author */
+  font-weight: bold; /* Bold font weight for the quote */
+  line-height: 1.4; /* Line spacing */
+}
+
+.author {
+  font-size: 1em; /* Smaller font size for the author */
+  color: #fff; /* Lighter color for the author */
+  margin-top: 0; /* Adjust top margin if needed */
+  font-style: italic; /* Italicize the author's name */
 }
