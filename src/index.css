@@ -120,6 +120,25 @@ body {
 .statista:hover {
   color: white;
 } */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(20, 17, 40, 0.85);
+  padding: 10px 20px; /* Adjust padding as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+.logo {
+  height: 50px; /* Adjust the size of your logo */
+  margin-right: 0; /* Space between logo and any other header elements */
+}
+
+.logo-text {
+  font-family: 'Bubblegum Sans', cursive; /* Update with your font */
+  font-size: 24px; /* Adjust font size as needed */
+  margin-left: 0; /* Space between the logo and the text */
+  color: #fff;
+}
 
 .quote-container {
   display: flex;

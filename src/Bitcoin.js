@@ -1,5 +1,5 @@
 import React from 'react'
-import bitcoinImage from './bitcoin.png' // Replace with the path to your image
+import bitcoinImage from './logo.png' // Replace with the path to your image
 
 const Bitcoin = () => {
   return (
