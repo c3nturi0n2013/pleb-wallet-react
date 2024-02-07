@@ -30,10 +30,13 @@ function App() {
   return (
     <div className="container">
       <h1>
-        Bitcoin's price is{' '}
-        <span className="btc-price">${price.toLocaleString()}</span>
+        Bitcoin = <span className="btc-price">${price.toLocaleString()}</span>
       </h1>
-      <h4>Sup?! 😄</h4>
+      <h2>1 Satoshi (Sat) = ${(price / 100000000).toFixed(8)}</h2>
+      <h4>100 million sats = 1 Bitcoin</h4>
+      <h4>
+        One dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
+      </h4>
     </div>
   )
 }
