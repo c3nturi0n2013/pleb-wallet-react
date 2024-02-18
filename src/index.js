@@ -15,7 +15,7 @@ root.render(
     <Header logoUrl={logo} altText={'Bitcoin Sprinkles Logo'} />
     <App />
     <Clock />
-    <QuotesCarousel interval={10000} />
+    <QuotesCarousel className="quotes" interval={10000} />
     <footer className="footer">
       Want to donate sats? Donate at ⚡️ bitcoinsprinkles@getalby.com
     </footer>

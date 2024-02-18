@@ -163,6 +163,9 @@ body {
   margin-top: 0; /* Adjust top margin if needed */
   font-style: italic; /* Italicize the author's name */
 }
+.quotes {
+  margin-bottom: 50px;
+}
 .footer {
   position: fixed; /* Fixed positioning to make it stick at the bottom */
   left: 0;
