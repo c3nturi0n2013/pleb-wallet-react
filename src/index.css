@@ -164,12 +164,17 @@ body {
   font-style: italic; /* Italicize the author's name */
 }
 .quotes {
-  margin-bottom: 50px;
+  margin-bottom: 500px;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
 }
 .footer {
-  position: fixed; /* Fixed positioning to make it stick at the bottom */
-  left: 0;
-  bottom: 0; /* Aligns it at the bottom */
   width: 100%; /* Full width */
   background-color: #333; /* Example background color */
   color: white; /* Example text color */

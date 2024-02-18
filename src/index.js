@@ -12,10 +12,12 @@ import logo from './logo.png'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <Header logoUrl={logo} altText={'Bitcoin Sprinkles Logo'} />
-    <App />
-    <Clock />
-    <QuotesCarousel className="quotes" interval={10000} />
+    <div className="content">
+      <Header logoUrl={logo} altText={'Bitcoin Sprinkles Logo'} />
+      <App />
+      <Clock />
+      <QuotesCarousel className="quotes" interval={10000} />
+    </div>
     <footer className="footer">
       Want to donate sats? Donate at ⚡️ bitcoinsprinkles@getalby.com
     </footer>
