@@ -22,7 +22,6 @@ root.render(
       Want to donate sats? Donate at ⚡️ bitcoinsprinkles@getalby.com
     </footer>
 
-    <Analytics />
-    <SpeedInsights />
+    
   </React.StrictMode>
 )
