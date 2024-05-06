@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     getPrice();
-    const interval = setInterval(getPrice, 60000);
+    const interval = setInterval(getPrice, 5000);
     return () => clearInterval(interval);
   }, []);
 
@@ -26,11 +26,11 @@ function App() {
     axios
       .get('https://raw.githubusercontent.com/c3nturi0n2013/data/master/btc.json')
       .then((res) => {
-        const data = res.data[0]; // Assuming data you want is at the first index
+        // Directly use the response data since it's a single JSON object
         setBitcoinData({
-          amount: data.amount,
-          percent: data.percent,
-          date: data.date,
+          amount: res.data.amount,
+          percent: res.data.percent,
+          date: res.data.date,
         });
       })
       .catch((err) => {
@@ -49,7 +49,7 @@ function App() {
         One dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
       </h4>
       <h4 id='gizmo'>
-        {bitcoinData.percent}% BTC owned as of {bitcoinData.date} with amount ${bitcoinData.amount}
+        {bitcoinData.percent} BTC owned as of {bitcoinData.date} with amount ${bitcoinData.amount.toLocaleString()}
       </h4>
     </div>
   );
