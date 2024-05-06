@@ -37,7 +37,7 @@ function App() {
       <h4>
         One dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
       </h4>
-      <h4>12.166% BTC owned by publicly traded & private companies</h4>
+      <h4>12.166% BTC owned by publicly traded & private companies (May 4, 2024)</h4>
     </div>
   )
 }
