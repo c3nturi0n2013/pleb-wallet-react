@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Timeline from './Timeline';
+import events from './quotes.json'
 
 function App() {
   const [price, setPrice] = useState(0);
@@ -48,9 +50,10 @@ function App() {
       <h4>
         One dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
       </h4>
-      <h4 id='gizmo'>
+      <h4>
         {bitcoinData.percent} BTC owned by: publicly traded companies, private companies, ETFs, & countries ({bitcoinData.date})
       </h4>
+      <Timeline events={events} />
     </div>
   );
 }

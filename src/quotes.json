@@ -1,50 +1,26 @@
 [
   {
-    "quotes": "Trust nothing, not even nothing.",
-    "author": "Elon Musk"
+    "description": "Bitcoin Spot ETFs were approved & began trading publicly",
+    "date": "Jan 10th & 11th 2024"
   },
   {
-    "quotes": "I think it is possible for ordinary people to choose to be extraordinary.",
-    "author": "Elon Musk"
+    "description": "Bill Belichick of the New England Patriots agreed to part ways with the Patriots.",
+    "date": "Jan 11th 2024"
   },
   {
-    "quotes": "Many things are improbable, only a few are impossible.",
-    "author": "Elon Musk"
+    "description": "SEC X account compromised - stating that the Bitcoin ETF was approved. It was not. SEC did not have 2FA per X.",
+    "date": "Jan 9th 2024"
   },
   {
-    "quotes": "I would like to die on Mars. Just not on impact.",
-    "author": "Elon Musk"
+    "description": "Joe Biden posted a pic of himself with laser eyes - writing: Just like we drew it up...laser eyes are associated with Bitcoiners...but unclear what Joe means",
+    "date": "Feb 11th 2024"
   },
   {
-    "quotes": "Bitcoin Spot ETFs were approved & began trading publicly",
-    "author": "Jan 10th & 11th 2024"
+    "description": "Kansas City Chiefs won Super Bowl LVIII 25-22 defeating the San Francisco 49ers",
+    "date": "Feb 11th 2024"
   },
   {
-    "quotes": "Bill Belichick of the New England Patriots agreed to part ways with the Patriots.",
-    "author": "Jan 11th 2024"
-  },
-  {
-    "quotes": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
-    "author": "John 3:16"
-  },
-  {
-    "quotes": "SEC X account compromised - stating that the Bitcoin ETF was approved. It was not. SEC did not have 2FA per X.",
-    "author": "Jan 9th 2024"
-  },
-  {
-    "quotes": "Every battle is won before it is fought",
-    "author": "Sun Tzu"
-  },
-  {
-    "quotes": "Joe Biden posted a pic of himself with laser eyes - writing: Just like we drew it up...laser eyes are associated with Bitcoiners...but unclear what Joe means",
-    "author": "Feb 11th 2024"
-  },
-  {
-    "quotes": "Kansas City Chiefs won Super Bowl LVIII 25-22 defeating the San Francisco 49ers",
-    "author": "Feb 11th 2024"
-  },
-  {
-    "quotes": "Each month Block will be investing 10% of it's monthly gross profit from bitcoin products into purchases of bitcoin for investment.",
-    "author": "May 2nd 2024"
+    "description": "Each month Block will be investing 10% of it's monthly gross profit from bitcoin products into purchases of bitcoin for investment.",
+    "date": "May 2nd 2024"
   }
 ]
