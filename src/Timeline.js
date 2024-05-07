@@ -4,7 +4,7 @@ import './timeline.css'
 const Timeline = ({ events }) => {
     return (
         <div className="timeline">
-            <h1>Bitcoin Timeline</h1>
+            <h3>Bitcoin Timeline</h3>
             {events.map((event, index) => (
                 <div key={index} className="timeline-item">
                     

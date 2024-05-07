@@ -1,3 +1,6 @@
+h3{
+    text-decoration: underline;
+}
 .timeline {
     /* border-left: 4px solid #333; */
     padding-left: 20px;
