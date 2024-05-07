@@ -13,8 +13,8 @@ root.render(
   <React.StrictMode>
     <div className="content">
       <Header logoUrl={logo} altText={'Bitcoin Sprinkles Logo'} />
-      <Clock />
       <App />
+      <Clock />
       
     </div>
     <footer className="footer">
