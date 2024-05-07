@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Timeline from './Timeline';
 import events from './quotes.json'
+import Bitcoin from './Bitcoin';
 
 function App() {
   const [price, setPrice] = useState(0);
@@ -45,6 +46,7 @@ function App() {
       <h1>
         Bitcoin = <span className="btc-price">${price.toLocaleString()}</span>
       </h1>
+      <Bitcoin />
       <h2>1 Satoshi (Sat) = ${(price / 100000000).toFixed(8)}</h2>
       <h4>100 million sats = 1 Bitcoin</h4>
       <h4>

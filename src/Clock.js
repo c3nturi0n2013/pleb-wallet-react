@@ -25,9 +25,9 @@ const Clock = () => {
         {formatTime(currentTime.getMinutes())}:
         {formatTime(currentTime.getSeconds())}
       </h2>
-      <div className="App">
+      {/* <div className="App">
         <Bitcoin />
-      </div>
+      </div> */}
     </div>
   )
 }
