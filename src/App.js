@@ -53,7 +53,7 @@ function App() {
         One dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
       </h4>
       <h4>
-        <span className='up'>⟰{bitcoinData.percent}</span> BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: {bitcoinData.date} by BiTBO)
+        <span className='up'>⟰{bitcoinData.percent}</span> of BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: {bitcoinData.date} by BiTBO)
       </h4>
       <Timeline events={events} />
     </div>
