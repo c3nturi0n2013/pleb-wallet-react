@@ -9,7 +9,7 @@ const Timeline = ({ events }) => {
                     
                     <div className="timeline-content">
                         {/* <h4>{event.title}</h4> */}
-                        <p>{event.description} | <span>{event.date}</span></p>
+                        <p>{event.description} | <span className='btc-price'>{event.date}</span></p>
                     </div>
                 </div>
             ))}
