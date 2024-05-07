@@ -6,10 +6,10 @@ const Timeline = ({ events }) => {
         <div className="timeline">
             {events.map((event, index) => (
                 <div key={index} className="timeline-item">
-                    <div className="timeline-date">{event.date}</div>
+                    
                     <div className="timeline-content">
                         {/* <h4>{event.title}</h4> */}
-                        <p>{event.description}</p>
+                        <p>{event.description} | <span>{event.date}</span></p>
                     </div>
                 </div>
             ))}
