@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App'
-import Clock from './Clock'
+
 
 
 import Header from './Header'
@@ -14,7 +14,7 @@ root.render(
     <div className="content">
       <Header logoUrl={logo} altText={'Bitcoin Sprinkles Logo'} />
       <App />
-      <Clock />
+      
       
     </div>
     <footer className="footer">

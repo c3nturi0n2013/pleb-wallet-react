@@ -181,6 +181,13 @@ body {
   text-align: center; /* Centers the text horizontally */
   padding: 10px 0;
 }
+/* update percent colors */
+.up{
+  color: green;
+}
+.down{
+  color: red;
+}
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
