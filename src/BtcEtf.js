@@ -40,12 +40,12 @@ function BtcEtf() {
                         <tr key={etf.symbol}>
                             <td>{etf.symbol}</td>
                             <td>{etf.country}</td>
-                            <td>${etf.price}</td>
+                            <td>${etf.price.toFixed(2)}</td>
                         </tr>
                     ))}
                 </tbody>
             </table>
-            <span>**Updated May 8th 2024</span>
+            <span>**Updated May 8th 2024 by Yahoo</span>
         </div>
     );
 }
