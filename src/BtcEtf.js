@@ -26,6 +26,7 @@ function BtcEtf() {
     return (
         <div>
             <h1>Bitcoin ETFs</h1>
+            <span>Uptade May 8th 2024</span>
             <table className='center-table'>
                 <thead>
                     <tr>
