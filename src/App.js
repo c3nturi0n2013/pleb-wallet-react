@@ -3,6 +3,7 @@ import axios from 'axios';
 import Timeline from './Timeline';
 import events from './quotes.json'
 import Bitcoin from './Bitcoin';
+import BtcEtf from './BtcEtf';
 
 function App() {
   const [price, setPrice] = useState(0);
@@ -55,6 +56,7 @@ function App() {
       <h4>
         <span className='up'>⟰{bitcoinData.percent}</span> of BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: {bitcoinData.date} by BiTBO)
       </h4>
+      <BtcEtf />
       <Timeline events={events} />
     </div>
   );
