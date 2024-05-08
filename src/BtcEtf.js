@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './btcetf.css';
 
 function BtcEtf() {
     const [etfs, setEtfs] = useState([]);
@@ -25,7 +26,7 @@ function BtcEtf() {
     return (
         <div>
             <h1>Bitcoin ETFs</h1>
-            <table>
+            <table className='center-table'>
                 <thead>
                     <tr>
                         <th>Symbol</th>
