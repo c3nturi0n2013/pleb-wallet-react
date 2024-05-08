@@ -25,7 +25,7 @@ function BtcEtf() {
 
     return (
         <div>
-            <h1>Bitcoin ETFs Top 3</h1>
+            <h1>Top 3 Bitcoin ETFs</h1>
             
             <table className='center-table'>
                 <thead>
