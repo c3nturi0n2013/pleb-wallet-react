@@ -5,3 +5,7 @@
     width: 80%; /* Optional: Adjust width as needed */
     border: solid 1px white;
 }
+
+.gizmo{
+    font-size: 10;
+}

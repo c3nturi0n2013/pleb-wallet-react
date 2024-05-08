@@ -26,6 +26,7 @@ function BtcEtf() {
     return (
         <div>
             <h1>Top 3 Bitcoin ETFs</h1>
+            <p className='gizmo'>(by amount of bitcoin owned)</p>
             
             <table className='center-table'>
                 <thead>
