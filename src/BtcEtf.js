@@ -46,7 +46,7 @@ function BtcEtf() {
                     ))}
                 </tbody>
             </table>
-            <span>**Updated May 8th 2024 by Yahoo</span>
+            <span>**Updated May 9th 2024 by Yahoo</span>
         </div>
     );
 }
