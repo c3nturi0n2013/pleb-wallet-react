@@ -21,8 +21,8 @@
     right: 10px;
     width: 40px; /* Adjust size as needed */
     height: 40px; /* Adjust size as needed */
-    opacity: 1 !important;
-    visibility: visible !important;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .referral-card:hover {
