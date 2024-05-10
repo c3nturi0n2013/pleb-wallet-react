@@ -14,8 +14,8 @@
     padding: 20px;
     margin: 10px;
     position: relative;
-    
 }
+
 .card-image {
     position: absolute;
     top: 10px;
@@ -43,12 +43,26 @@
     font-size: 16px;
 }
 
-/* Add responsive behavior if needed */
 @media (max-width: 600px) {
     .referral-card {
-        width: 80%;
-        height: auto;
+        width: 90%; /* Use 100% width for better flexibility */
+        height: auto; /* Height auto for natural content adjustment */
         padding: 10px;
         margin: 10px auto;
+    }
+
+    .card-image {
+        width: 60px; /* Smaller size */
+        height: 60px; /* Smaller size */
+        top: 5px; /* Adjust position */
+        right: 5px; /* Adjust position */
+    }
+
+    .card-content h2 {
+        font-size: 1.2rem; /* Adjust font size */
+    }
+
+    .card-content p {
+        font-size: 14px; /* Adjust font size for smaller screens */
     }
 }
