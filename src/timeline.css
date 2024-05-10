@@ -36,3 +36,21 @@ h23{
 .arweave:hover{
     color:#f7931a;
 }
+
+@media only screen and (max-width: 600px) {
+    .timeline {
+        padding: 10px;
+    }
+    .timeline-item {
+        padding: 5px;
+        font-size: 14px; /* smaller font size for smaller screens */
+    }
+    .timeline-content p {
+        flex-direction: column; /* stack the description and date vertically */
+        align-items: flex-start;
+    }
+    .arweave, .btc-price {
+        display: block; /* makes each element take full width */
+    }
+}
+
