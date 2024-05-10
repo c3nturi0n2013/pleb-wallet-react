@@ -1,5 +1,5 @@
 import React from 'react';
-import './timeline.css'
+import './timeline.css';
 
 const Timeline = ({ events }) => {
     return (
@@ -7,10 +7,18 @@ const Timeline = ({ events }) => {
             <h2>Bitcoin News Timeline</h2>
             {events.map((event, index) => (
                 <div key={index} className="timeline-item">
-                    
                     <div className="timeline-content">
-                        {/* <h4>{event.title}</h4> */}
-                        <p>{event.description} | <span className='btc-price'>{event.date}</span></p>
+                        {/* Conditional rendering of link based on presence of url */}
+                        {event.url ? (
+                            <p>
+                                <a href={event.url} target="_blank" rel="noopener noreferrer">
+                                    {event.description}
+                                </a>
+                                | <span className='btc-price'>{event.date}</span>
+                            </p>
+                        ) : (
+                            <p>{event.description} | <span className='btc-price'>{event.date}</span></p>
+                        )}
                     </div>
                 </div>
             ))}
