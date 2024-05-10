@@ -4,6 +4,7 @@ import Timeline from './Timeline';
 import events from './quotes.json'
 import Bitcoin from './Bitcoin';
 import BtcEtf from './BtcEtf';
+import ReferralCard from './ReferralCard';
 
 function App() {
   const [price, setPrice] = useState(0);
@@ -58,6 +59,7 @@ function App() {
       </h4>
       <BtcEtf />
       <Timeline events={events} />
+      <ReferralCard />
     </div>
   );
 }
