@@ -13,8 +13,7 @@ const Timeline = ({ events }) => {
                             <p>
                                 <a href={event.url} target="_blank" rel="noopener noreferrer" className='arweave'>
                                     {event.description}
-                                </a>
-                                | <span className='btc-price'>{event.date}</span>
+                                </a> | <span className='btc-price'>{event.date}</span>
                             </p>
                         ) : (
                             <p>{event.description} | <span className='btc-price'>{event.date}</span></p>
