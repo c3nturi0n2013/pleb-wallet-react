@@ -11,7 +11,7 @@ const Timeline = ({ events }) => {
                         {/* Conditional rendering of link based on presence of url */}
                         {event.url ? (
                             <p>
-                                <a href={event.url} target="_blank" rel="noopener noreferrer">
+                                <a href={event.url} target="_blank" rel="noopener noreferrer" className='arweave'>
                                     {event.description}
                                 </a>
                                 | <span className='btc-price'>{event.date}</span>
