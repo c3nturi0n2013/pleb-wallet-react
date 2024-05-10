@@ -21,7 +21,7 @@
     right: 10px;
     width: 40px; /* Adjust size as needed */
     height: 40px; /* Adjust size as needed */
-    border-radius: 50%; /* Circular image, remove if not needed */
+    
 }
 
 .referral-card:hover {
