@@ -43,7 +43,7 @@
 /* Add responsive behavior if needed */
 @media (max-width: 600px) {
     .referral-card {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 10px;
     }
