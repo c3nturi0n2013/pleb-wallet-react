@@ -1,0 +1,47 @@
+.ath-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-family: 'Arial, sans-serif';
+  max-width: 400px; /* Ensure the container is not too wide */
+}
+
+.ath-display {
+  text-align: center;
+}
+
+.ath-display h2 {
+  margin: 0;
+  font-size: 18px; /* Adjusted font size for better fit */
+  color: #333;
+}
+
+.ath-display p {
+  margin: 10px 0 0;
+  font-size: 24px; /* Adjusted font size for better fit */
+  font-weight: bold;
+  color: #ff9900;
+}
+#gecko{
+  text-decoration: none;
+  color: #8AC43F;
+}
+
+@media (max-width: 600px) {
+  .ath-container {
+    padding: 10px;
+  }
+
+  .ath-display h2 {
+    font-size: 16px; /* Smaller font size for mobile */
+  }
+
+  .ath-display p {
+    font-size: 22px; /* Smaller font size for mobile */
+  }
+}

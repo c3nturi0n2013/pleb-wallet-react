@@ -5,6 +5,7 @@ import events from './quotes.json'
 import Bitcoin from './Bitcoin';
 import BtcEtf from './BtcEtf';
 import ReferralCard from './ReferralCard';
+import BtcAth from './BtcAth';
 
 function App() {
   const [price, setPrice] = useState(0);
@@ -57,6 +58,7 @@ function App() {
       <h4>
         <span className='up'>⟰{bitcoinData.percent}</span> of BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: {bitcoinData.date} by BiTBO)
       </h4>
+      <BtcAth />
       <BtcEtf />
       <Timeline events={events} />
       <ReferralCard />
