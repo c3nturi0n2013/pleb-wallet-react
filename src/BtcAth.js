@@ -54,7 +54,7 @@ const BtcAth = () => {
       {error && <p>{error}</p>}
       {ath && (
         <div className="ath-display">
-          <h2>Bitcoin All-Time High</h2>
+          <h2 id='title'>Bitcoin All-Time High</h2>
           <p>${ath.toLocaleString()}</p>
           <h3><a href="https://www.coingecko.com/" id="gecko">CoinGecko</a></h3>
         </div>

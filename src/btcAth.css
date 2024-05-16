@@ -2,13 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #ff9900, #000);
+  background: #1e1e1e;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   margin: 20px auto;
   font-family: 'Arial, sans-serif';
   max-width: 400px; /* Ensure the container is not too wide */
+}
+#title{
+  color:#938e8ebf;
 }
 
 .ath-display {
