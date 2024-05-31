@@ -56,7 +56,7 @@ function App() {
         One US dollar can buy you {(1 / (price / 100000000)).toFixed(2)} sats
       </h4>
       <h4>
-        <span className='up'>⟰{bitcoinData.percent}</span> of BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: May 30, 2024 by BiTBO)
+        <span className='up'>⟰{bitcoinData.percent}</span> of BTC owned by: publicly traded companies, private companies, ETFs, & countries (updated: May 31, 2024 by BiTBO)
       </h4>
       <BtcAth />
       <BtcEtf />
