@@ -18,7 +18,7 @@ root.render(
       
     </div>
     <footer className="footer">
-      Donate sats at ⚡️ bitcoinsprinkles@getalby.com | Timeline secured on the Permaweb 💻 🕸️.
+      Donate sats at ⚡️ bitcoinsprinkles@getalby.com | Timeline secured 🔒 on the Permaweb 💻 🕸️.
     </footer>
 
     
